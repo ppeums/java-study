@@ -1,4 +1,4 @@
-package overload.method.lesson;
+package overloading.method.lesson;
 
 /**
  * 메서드 오버로딩

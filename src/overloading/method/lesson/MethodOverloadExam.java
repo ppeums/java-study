@@ -1,4 +1,4 @@
-package overload.method.lesson;
+package overloading.method.lesson;
 
 public class MethodOverloadExam {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package overload.method.practice;
+package overloading.method.practice;
 
 public class Car {
     void run() {

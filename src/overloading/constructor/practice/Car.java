@@ -1,4 +1,4 @@
-package overload.constructor.practice;
+package overloading.constructor.practice;
 
 public class Car {
     String name;

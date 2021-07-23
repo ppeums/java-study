@@ -1,4 +1,4 @@
-package overload.constructor.practice;
+package overloading.constructor.practice;
 
 // 실행을 위한 코드입니다.
 public class CarExam {

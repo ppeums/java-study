@@ -1,4 +1,4 @@
-package overload.constructor.lesson;
+package overloading.constructor.lesson;
 
 public class CarExam {
     public static void main(String[] args) {
