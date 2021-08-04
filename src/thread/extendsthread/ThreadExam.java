@@ -11,8 +11,8 @@ public class ThreadExam {
    public static void main(String[] args) {
 
         // 생성자에서 문자열을 받는다.
-        MyThread t1 = new MyThread("*");
-        MyThread t2 = new MyThread("-");
+        MyThread1 t1 = new MyThread1("*");
+        MyThread1 t2 = new MyThread1("-");
 
         /**
          * Thread를 동작시킬 때, run()이 아닌 start()를 호출해야 한다.

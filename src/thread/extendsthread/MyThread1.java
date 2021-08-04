@@ -4,10 +4,11 @@ package thread.extendsthread;
  * 쓰레드를 만드는 방법 1
  * - Thread 클래스를 상속받아서 쓰레드를 생성하는 방법
  */
-public class MyThread extends Thread {
+public class MyThread1 extends Thread {
     String str;
 
-    public MyThread(String str) {
+    // 문자열을 받아들이는 생성자
+    public MyThread1(String str) {
         this.str = str;
     }
 
