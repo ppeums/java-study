@@ -1,8 +1,8 @@
 package thread.extendsthread;
 
 /**
- * 쓰레드를 만드는 방법 1
- * - Thread 클래스를 상속받아서 쓰레드를 생성하는 방법
+ * 스레드를 만드는 방법 1
+ * - Thread 클래스를 상속받아서 스레드를 생성하는 방법
  */
 public class MyThread1 extends Thread {
     String str;
@@ -17,7 +17,7 @@ public class MyThread1 extends Thread {
      *
      * run()
      * - main() 메서드와 비슷하지만, 다른 흐름의 main() 메서드이다.
-     * - 쓰레드 안에서 하고 싶은 일을 구현하면 된다.
+     * - 스레드 안에서 하고 싶은 일을 구현하면 된다.
      */
     @Override
     public void run() {

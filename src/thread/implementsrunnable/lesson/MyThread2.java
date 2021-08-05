@@ -1,8 +1,8 @@
 package thread.implementsrunnable.lesson;
 
 /**
- * 쓰레드를 만드는 방법 2
- * - Runnable 인터페이스를 구현해서 쓰레드를 만드는 방법
+ * 스레드를 만드는 방법 2
+ * - Runnable 인터페이스를 구현해서 스레드를 만드는 방법
  * - 이미 다른 클래스를 상속받고 있을 때, Thread 클래스를 또 상속받을 수는 없기 때문
  */
 public class MyThread2 implements Runnable {

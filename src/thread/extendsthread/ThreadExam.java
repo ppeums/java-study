@@ -4,9 +4,9 @@ package thread.extendsthread;
 public class ThreadExam {
 
     /**
-     * main 쓰레드 (또는 main 흐름)
-     * - main 쓰레드가 종료되어도, 프로그램이 종료되는 것은 아니다.
-     * - 모든 쓰레드가 종료되어야만, 프로그램이 종료된다.
+     * main 스레드 (또는 main 흐름)
+     * - main 스레드가 종료되어도, 프로그램이 종료되는 것은 아니다.
+     * - 모든 스레드가 종료되어야만, 프로그램이 종료된다.
      */
    public static void main(String[] args) {
 
@@ -23,12 +23,12 @@ public class ThreadExam {
          *
          * t1.start()를 실행할 때, 프로그램의 흐름이 2개가 된다.
          * - 1) 원래 main()을 수행하던 흐름
-         * - 2) 쓰레드가 하나 더 발생돼서, 그 run()이 실행되는 흐름
+         * - 2) 스레드가 하나 더 발생돼서, 그 run()이 실행되는 흐름
          *
          * t2.start()를 실행할 때, 프로그램의 흐름이 3개가 된다.
          * - 1) 원래 main()을 수행하던 흐름
-         * - 2) 쓰레드 1의 run()이 실행되는 흐름
-         * - 3) 쓰레드 2의 run()이 실행되는 흐름
+         * - 2) 스레드 1의 run()이 실행되는 흐름
+         * - 3) 스레드 2의 run()이 실행되는 흐름
          */
         t1.start();
         t2.start();
